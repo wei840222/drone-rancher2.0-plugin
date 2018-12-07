@@ -1,0 +1,10 @@
+{
+  "name": "drone-rancher2.0-plugin",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": "https://github.com/wei840222/drone-rancher2.0-plugin",
+  "author": "wei840222",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
