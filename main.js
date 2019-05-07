@@ -3,10 +3,10 @@
 
     const {
         PLUGIN_PROJECT_API,
-        PLUGIN_DEPLOY_IMAGE
+        PLUGIN_DEPLOY_IMAGE,
+        RANCHER_ACCESS_KEY,
+        RANCHER_SECRET_KEY
     } = process.env
-    const RANCHER_ACCESS_KEY = process.env.ACCESS_KEY
-    const RANCHER_SECRET_KEY = process.env.SECRET_KEY
     const workloadInfo = await axios.get(PLUGIN_PROJECT_API, {
         auth: {
             username: RANCHER_ACCESS_KEY,
