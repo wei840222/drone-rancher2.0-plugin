@@ -9,3 +9,7 @@ pipeline:
         access_key: ${Your rancher access key NAME}
         secret_key: ${Your rancher access key NAME}
 ```
+
+##Notice 
+
+You should use RANCHER_ACCESS_KEY and RANCHER_SECRET_KEY or the Rancher API server will response 401 unauthorized.
