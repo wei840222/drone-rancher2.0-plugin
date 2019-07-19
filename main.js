@@ -3,9 +3,9 @@
 
     const {
         PLUGIN_PROJECT_API,
-        PLUGIN_DEPLOY_IMAGE,
-        RANCHER_ACCESS_KEY,
-        RANCHER_SECRET_KEY
+        PLUGIN_ACCESS_KEY,
+        PLUGIN_SECRET_KEY,
+        PLUGIN_DEPLOY_IMAGE
     } = process.env
 
     try {
@@ -28,5 +28,5 @@
             throw new Error("exited in code 1") // process.exit(1) 也可以
         })
     }
-    
+
 })()
