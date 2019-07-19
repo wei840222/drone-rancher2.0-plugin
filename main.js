@@ -24,6 +24,9 @@
         })
         console.log(workloadInfoNew.data)
     } catch (err) {
-        console.error(err)
+        setTimeout(() => {
+            throw new Error("exited in code 1") // process.exit(1) 也可以
+        })
     }
+
 })()
