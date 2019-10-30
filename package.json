@@ -5,6 +5,6 @@
   "repository": "https://github.com/wei840222/drone-rancher2.0-plugin",
   "author": "wei840222",
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.18.1"
   }
 }
